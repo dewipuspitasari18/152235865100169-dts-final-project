@@ -14,7 +14,7 @@ html {
 }
 
 .App {
-  display: flex;
+ 
   flex-direction: column;
   align-items: center;
 }
@@ -23,10 +23,10 @@ h1 {
   font-size: 8rem;
   letter-spacing: 0.1rem;
   font-style: italic;
-  color: #c4124d;
+  color: #c73a3a;
   text-shadow: 0 0.2rem 5rem rgb(119, 115, 115);
   text-transform: uppercase;
-  margin: 4rem 0;
+  margin-top: 3rem;
 }
 
 .search-form {
@@ -40,6 +40,7 @@ h1 {
   margin-bottom: 5rem;
   box-shadow: 1rem 2rem 5rem #aaa;
   position: relative;
+  margin-top: 10rem;
 }
 
 .alert {
@@ -157,3 +158,4 @@ h1 {
   color: #40b48e;
   font-size: 1.3rem;
 }
+
